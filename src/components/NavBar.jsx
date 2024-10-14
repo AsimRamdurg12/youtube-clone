@@ -3,7 +3,7 @@ import { logo, menu, notification, profile, search, video } from "../assets";
 
 const NavBar = () => {
   return (
-    <div className="relative z-50 top-0">
+    <div className="fixed w-full top-0 left-0 bg-white">
       <nav className="h-14 flex justify-between flex-col-3 flex-row z-10 border-b mx-2">
         <div className=" flex bg-white">
           <img src={menu} alt="menu" className="w-6 h-6 m-4 cursor-pointer" />

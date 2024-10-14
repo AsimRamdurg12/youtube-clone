@@ -18,7 +18,18 @@ import cameron from "./cameron.png"
 import gerard from "./gerard.png"
 import simon from "./simon.png"
 import megan from "./megan.png" 
+import thumbnail1 from "./thumbnail1.png"
+import VIDEO from "./video.mp4"
+import like from "./like.png"
+import dislike from "./dislike.png"
+import share from "./share.png"
+import save from "./save.png"
+import user_profile from "./user_profile.jpg"
 
 
 
-export {logo, menu, search, video, notification, profile, home, automobiles, games, sports, vlogs, music, news, entertainment, technology, gerard, tom, megan, cameron, simon};
+export {logo, menu, search, video, 
+    notification, profile, home, automobiles, 
+    games, sports, vlogs, music, news, entertainment, 
+    technology, gerard, tom, megan, cameron, simon, 
+    thumbnail1, VIDEO, like, dislike, save, share, user_profile};

@@ -1,10 +1,14 @@
 import React from "react";
 import SideBar from "./SideBar";
+import Feed from "./Feed";
 
-const Home = () => {
+const Home = ({ sideBar }) => {
   return (
-    <div>
-      <SideBar />
+    <div className="flex">
+      <SideBar sideBar={sideBar} />
+      <div>
+        <Feed />
+      </div>
     </div>
   );
 };
