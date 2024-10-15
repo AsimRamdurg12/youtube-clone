@@ -1,5 +1,6 @@
 import React from "react";
 import { logo, menu, notification, profile, search, video } from "../assets";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -7,7 +8,9 @@ const NavBar = () => {
       <nav className="h-14 flex justify-between flex-col-3 flex-row z-10 border-b mx-2">
         <div className=" flex bg-white">
           <img src={menu} alt="menu" className="w-6 h-6 m-4 cursor-pointer" />
-          <img src={logo} alt="youtube" className="w-8 h-6 mt-4" />
+          <Link to="/">
+            <img src={logo} alt="youtube" className="w-8 h-6 mt-4" />
+          </Link>
           <div className="font-bold text-[25px] mt-2">Youtube</div>
         </div>
         <div className="w-[450px] h-9 flex justify-start flex-row mt-3">

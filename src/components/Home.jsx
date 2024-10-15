@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import SideBar from "./SideBar";
 import Feed from "./Feed";
 
-const Home = ({ sideBar }) => {
+const Home = () => {
+  const [category, setCategory] = useState(0);
+
   return (
     <div className="flex">
-      <SideBar sideBar={sideBar} />
+      <SideBar category={category} setCategory={setCategory} />
       <div>
-        <Feed />
+        <Feed category={category} />
       </div>
     </div>
   );
