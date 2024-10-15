@@ -12,7 +12,7 @@ const Home = () => {
         <Feed category={category} />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Home;
